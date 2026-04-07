@@ -68,6 +68,71 @@ export const quizzes: Quiz[] = [
         explanation:
           "'Jag skulle vilja boka en biljett' är den korrekta och artiga formen för att boka en biljett.",
       },
+      {
+        id: "sv1-q6",
+        question: "Vad innebär 'lagom' i svensk kultur?",
+        options: [
+          "Att alltid ta mest",
+          "Att ta lagom mycket — varken för lite eller för mycket",
+          "Att vara tyst hela tiden",
+          "Att alltid säga ja",
+        ],
+        correctIndex: 1,
+        explanation:
+          "'Lagom' är ett centralt svenskt begrepp som betyder 'precis rätt mängd' — balans och måttfullhet.",
+      },
+      {
+        id: "sv1-q7",
+        question: "Vilken mening använder korrekt ordföljd i en bisats?",
+        options: [
+          "Jag vet att han kommer inte idag.",
+          "Jag vet att han inte kommer idag.",
+          "Jag vet att inte han kommer idag.",
+          "Jag vet att kommer han inte idag.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "I svenska bisatser placeras negationen 'inte' före verbet: 'att han inte kommer'. Detta skiljer sig från huvudsatsens ordföljd.",
+      },
+      {
+        id: "sv1-q8",
+        question: "Vad är 'allemansrätten'?",
+        options: [
+          "En lag som förbjuder camping i naturen",
+          "Rätten att rösta i svenska val",
+          "Rätten att vistas i naturen, plocka bär och svamp, och tälta tillfälligt",
+          "En skatt som alla måste betala",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Allemansrätten ger alla rätt att vistas i naturen, plocka bär och svamp, och tälta tillfälligt — men med ansvar att inte störa eller förstöra.",
+      },
+      {
+        id: "sv1-q9",
+        question: "Vad betyder uttrycket 'det är ingen ko på isen'?",
+        options: [
+          "Det finns inga kor i Sverige",
+          "Isen är för tunn att gå på",
+          "Det är ingen fara, det är inte bråttom",
+          "Det är mycket kallt ute",
+        ],
+        correctIndex: 2,
+        explanation:
+          "'Det är ingen ko på isen' är ett idiom som betyder att det inte finns någon anledning till oro — situationen är lugn.",
+      },
+      {
+        id: "sv1-q10",
+        question: "Hur tackar man artigt för maten i Sverige?",
+        options: [
+          "Det var gott!",
+          "Tack för maten!",
+          "Jag är klar.",
+          "Bra mat.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "'Tack för maten' är en viktig svensk etikettregel. Det anses oartigt att inte tacka den som lagat eller bjudit på maten.",
+      },
     ],
   },
   {
@@ -142,6 +207,71 @@ export const quizzes: Quiz[] = [
         explanation:
           "Källkritik handlar om att bedöma en källas trovärdighet genom att granska avsändare, aktualitet, syfte och oberoende.",
       },
+      {
+        id: "sv2-q6",
+        question: "Vad är ett 'motargument'?",
+        options: [
+          "Ett argument som stödjer den egna tesen",
+          "Ett argument som bemöter eller ifrågasätter en annan persons ståndpunkt",
+          "En sammanfattning av debatten",
+          "Ett personangrepp",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Ett motargument ifrågasätter eller bemöter en annan persons argument. Att kunna hantera motargument stärker den egna argumentationen.",
+      },
+      {
+        id: "sv2-q7",
+        question: "Vilken av följande meningar är korrekt formell svenska?",
+        options: [
+          "Vi vill typ ha mötet på tisdag.",
+          "Det vore önskvärt att förlägga mötet till tisdag.",
+          "Kan vi köra mötet på tisdag eller?",
+          "Tisdag funkar bäst liksom.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Formellt språk kräver fullständiga meningar utan slang eller talspråk. 'Det vore önskvärt' är en lämplig formell formulering.",
+      },
+      {
+        id: "sv2-q8",
+        question: "Vad bör man undvika i ett CV?",
+        options: [
+          "Relevant arbetslivserfarenhet",
+          "Kontaktuppgifter",
+          "Irrelevanta personliga detaljer och felaktig information",
+          "Utbildning och kompetenser",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Ett CV ska vara relevant och sanningsenligt. Irrelevanta personliga detaljer och felaktig information skadar trovärdigheten.",
+      },
+      {
+        id: "sv2-q9",
+        question: "Vad innebär 'aktiv lyssning' i professionella sammanhang?",
+        options: [
+          "Att vara tyst medan andra pratar",
+          "Att lyssna uppmärksamt, ställa följdfrågor och bekräfta att man förstått",
+          "Att anteckna allt som sägs",
+          "Att avbryta med egna åsikter",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Aktiv lyssning innebär att man visar engagemang genom ögonkontakt, följdfrågor och bekräftelse — en nyckelkompetens i arbetslivet.",
+      },
+      {
+        id: "sv2-q10",
+        question: "Vad är syftet med en 'sammanfattning' i en rapport?",
+        options: [
+          "Att upprepa hela rapporten",
+          "Att ge läsaren en kort överblick av rapportens huvudpunkter och slutsatser",
+          "Att presentera ny information",
+          "Att tacka läsaren",
+        ],
+        correctIndex: 1,
+        explanation:
+          "En sammanfattning ger en komprimerad överblick av rapportens syfte, metod, resultat och slutsatser så att läsaren snabbt förstår innehållet.",
+      },
     ],
   },
   {
@@ -211,6 +341,71 @@ export const quizzes: Quiz[] = [
         explanation:
           "En debattartikel har en tydlig tes och argumentation, medan en krönika är mer personlig och reflekterande.",
       },
+      {
+        id: "sv3-q6",
+        question: "Vad är en 'abstrakt' i en vetenskaplig uppsats?",
+        options: [
+          "En lista över alla källor",
+          "En kort sammanfattning av uppsatsens syfte, metod, resultat och slutsatser",
+          "Uppsatsens inledning",
+          "En bilaga med rådata",
+        ],
+        correctIndex: 1,
+        explanation:
+          "En abstrakt (sammanfattning) ger en komprimerad översikt av uppsatsens alla delar och hjälper läsaren att avgöra om texten är relevant.",
+      },
+      {
+        id: "sv3-q7",
+        question: "Vad innebär 'intersubjektivitet' inom vetenskapen?",
+        options: [
+          "Att bara en person kan förstå resultaten",
+          "Att resultat ska kunna verifieras och förstås av andra forskare",
+          "Att man använder flera språk",
+          "Att man arbetar ensam",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Intersubjektivitet innebär att vetenskapliga resultat ska vara transparenta och möjliga att granska och bekräfta av andra forskare.",
+      },
+      {
+        id: "sv3-q8",
+        question: "Vilket av följande är ett exempel på ett 'ad hominem'-argument?",
+        options: [
+          "Statistiken visar att utsläppen ökar.",
+          "Du har fel eftersom du inte ens har en utbildning i ämnet.",
+          "Enligt flera studier är effekten marginell.",
+          "Om vi jämför med andra länder ser vi ett tydligt mönster.",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Ad hominem innebär att man angriper personen istället för argumentet. Det är ett logiskt felslut som underminerar saklig debatt.",
+      },
+      {
+        id: "sv3-q9",
+        question: "Vad menas med 'diskurs' i akademiska sammanhang?",
+        options: [
+          "En enskild mening",
+          "Ett sätt att tala om och förstå ett ämne inom en viss social eller kulturell kontext",
+          "En grammatisk regel",
+          "En typ av dikt",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Diskurs avser det sätt vi talar om, skriver om och förstår världen inom specifika sociala och kulturella ramar.",
+      },
+      {
+        id: "sv3-q10",
+        question: "Vad är skillnaden mellan 'kvantitativ' och 'kvalitativ' metod?",
+        options: [
+          "Kvantitativ är bättre än kvalitativ",
+          "Kvantitativ metod mäter med siffror och statistik, kvalitativ utforskar upplevelser och betydelser",
+          "Kvalitativ metod använder bara enkäter",
+          "Det finns ingen vetenskaplig skillnad",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Kvantitativ metod samlar in mätbar data (siffror, statistik), medan kvalitativ metod utforskar mening, upplevelser och tolkningar genom exempelvis intervjuer.",
+      },
     ],
   },
   {
@@ -279,6 +474,71 @@ export const quizzes: Quiz[] = [
         correctIndex: 1,
         explanation:
           "Skönlitteratur (romaner, noveller, dikter) är fiktiv och konstnärlig, medan facklitteratur (läroböcker, uppslagsverk) syftar till att informera sakligt.",
+      },
+      {
+        id: "lit-q6",
+        question: "Vad är en 'liknelse' (simile)?",
+        options: [
+          "Ett bildligt uttryck utan jämförelseord",
+          "En jämförelse med 'som' eller 'liksom', t.ex. 'stark som en björn'",
+          "En motsägelse",
+          "En upprepning av ljud",
+        ],
+        correctIndex: 1,
+        explanation:
+          "En liknelse är en jämförelse som använder 'som' eller 'liksom': 'Hon var snabb som vinden'. Till skillnad från metaforer markeras jämförelsen tydligt.",
+      },
+      {
+        id: "lit-q7",
+        question: "Vad innebär 'allvetande berättare'?",
+        options: [
+          "En berättare som bara vet vad huvudpersonen tänker",
+          "En berättare som känner till alla karaktärers tankar, känslor och handlingar",
+          "En berättare som är en av karaktärerna",
+          "En berättare som bara beskriver det som syns utifrån",
+        ],
+        correctIndex: 1,
+        explanation:
+          "En allvetande (omniscient) berättare har tillgång till alla karaktärers inre liv och kan fritt röra sig mellan perspektiv.",
+      },
+      {
+        id: "lit-q8",
+        question: "Vilken litterär epok betonade vetenskap, förnuft och samhällskritik?",
+        options: [
+          "Romantiken",
+          "Modernismen",
+          "Upplysningen",
+          "Postmodernismen",
+        ],
+        correctIndex: 2,
+        explanation:
+          "Upplysningen (ca 1700-talet) betonade förnuft, vetenskap och kritiskt tänkande. Författare som Voltaire och Rousseau ifrågasatte traditioner och makt.",
+      },
+      {
+        id: "lit-q9",
+        question: "Vad är 'symbolik' i en litterär text?",
+        options: [
+          "Att texten handlar om matematik",
+          "Att konkreta ting eller händelser representerar abstrakta idéer eller känslor",
+          "Att författaren använder många adjektiv",
+          "Att texten är skriven i versform",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Symbolik innebär att något konkret (t.ex. en röd ros) representerar något abstrakt (kärlek). Det ger texten djupare mening.",
+      },
+      {
+        id: "lit-q10",
+        question: "Vad kännetecknar modernistisk litteratur?",
+        options: [
+          "Strikt kronologisk ordning och tydlig handling",
+          "Experimentellt språk, fragmentering och brott mot traditionella berättarformer",
+          "Endast rimmat versmått",
+          "Enbart historiska ämnen",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Modernismen (tidigt 1900-tal) bröt med traditionella former genom strömmande medvetande, fragmentering och experimentellt språk.",
       },
     ],
   },
@@ -354,6 +614,71 @@ export const quizzes: Quiz[] = [
         explanation:
           "Kairos handlar om tajming — att anpassa sitt budskap till rätt ögonblick och sammanhang för maximal effekt.",
       },
+      {
+        id: "ret-q6",
+        question: "Vad är en 'antites'?",
+        options: [
+          "En upprepning av ord",
+          "En motsatsställning av idéer för att skapa kontrast och effekt",
+          "En fråga utan svar",
+          "Ett citat från en känd person",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Antites ställer motsatser mot varandra för retorisk effekt: 'Inte för att döda, utan för att rädda' — kontrasten förstärker budskapet.",
+      },
+      {
+        id: "ret-q7",
+        question: "Vad kallas det klassiska taleuppbyggnaden med fem delar?",
+        options: [
+          "Berättarstruktur",
+          "Dispositionsmodellen: exordium, narratio, propositio, argumentatio, peroratio",
+          "Trestegsmodellen",
+          "Femaktsmodellen",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Den klassiska retoriska dispositionen har fem delar: exordium (inledning), narratio (bakgrund), propositio (tes), argumentatio (argumentation) och peroratio (avslutning).",
+      },
+      {
+        id: "ret-q8",
+        question: "Vad är 'tretal' (trikolon) i retoriken?",
+        options: [
+          "Att hålla tre tal",
+          "Att gruppera ord eller fraser i tre för rytm och slagkraft",
+          "Att använda tre olika språk",
+          "Att ha tre poänger i sitt tal",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Trikolon är en retorisk figur där man grupperar tre ord, fraser eller satser: 'Jag kom, jag såg, jag segrade' — tretal skapar rytm och memorerbarhet.",
+      },
+      {
+        id: "ret-q9",
+        question: "Vad innebär 'halmgubbeargument' (straw man)?",
+        options: [
+          "Att använda bilder i sin argumentation",
+          "Att förvränga motståndarens argument för att lättare kunna bemöta det",
+          "Att använda humor i sitt tal",
+          "Att bygga upp ett starkt argument",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Halmgubbeargument innebär att man avsiktligt förvränger motståndarens ståndpunkt till en svagare version och sedan angriper den förvrängda versionen.",
+      },
+      {
+        id: "ret-q10",
+        question: "Vad menas med 'auctoritas' som retorisk strategi?",
+        options: [
+          "Att tala med hög röst",
+          "Att hänvisa till erkända auktoriteter eller experter för att stärka sitt argument",
+          "Att använda komplicerade ord",
+          "Att berätta personliga anekdoter",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Auctoritas innebär att man stärker sin argumentation genom att hänvisa till respekterade auktoriteter, experter eller trovärdiga källor.",
+      },
     ],
   },
   {
@@ -427,6 +752,71 @@ export const quizzes: Quiz[] = [
         correctIndex: 1,
         explanation:
           "Kamratrespons innebär att ge varandra konstruktiv feedback på texters innehåll, struktur och språk för ömsesidig förbättring.",
+      },
+      {
+        id: "skr-q6",
+        question: "Vad är en 'krönika' för typ av text?",
+        options: [
+          "En nyhetsartikel",
+          "En personlig och reflekterande text, ofta med en subjektiv röst",
+          "En vetenskaplig rapport",
+          "En bruksanvisning",
+        ],
+        correctIndex: 1,
+        explanation:
+          "En krönika är en personlig text där skribenten reflekterar över ett ämne med sin egen röst. Tonen kan vara humoristisk, allvarlig eller ironisk.",
+      },
+      {
+        id: "skr-q7",
+        question: "Vad innebär 'koherens' i en text?",
+        options: [
+          "Att texten är lång",
+          "Att textens delar hänger ihop logiskt och bildar en meningsfull helhet",
+          "Att texten har många skiljetecken",
+          "Att varje stycke handlar om olika saker",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Koherens betyder att textens idéer och stycken hänger ihop logiskt. Läsaren ska kunna följa tankekedjan utan förvirring.",
+      },
+      {
+        id: "skr-q8",
+        question: "Vilken av följande är en 'bisatsinledare'?",
+        options: [
+          "Men",
+          "Och",
+          "Eftersom",
+          "Dessutom",
+        ],
+        correctIndex: 2,
+        explanation:
+          "'Eftersom' inleder en bisats och anger orsak. Bisatsinledare (subjunktioner) som 'att', 'om', 'när', 'eftersom' binder bisatsen till huvudsatsen.",
+      },
+      {
+        id: "skr-q9",
+        question: "Vad är en 'referatmarkör'?",
+        options: [
+          "Ett skiljetecken",
+          "Ett uttryck som visar att man återger någon annans åsikt, t.ex. 'enligt' eller 'menar att'",
+          "En typ av rubrik",
+          "Ett fotnotstecken",
+        ],
+        correctIndex: 1,
+        explanation:
+          "Referatmarkörer som 'enligt', 'hävdar att', 'menar att' signalerar att man återger en annan persons tankar — viktigt för källhänvisning.",
+      },
+      {
+        id: "skr-q10",
+        question: "Vad bör man tänka på vid styckeindelning?",
+        options: [
+          "Varje mening ska vara ett eget stycke",
+          "Varje stycke ska innehålla en huvudidé och stödjas av relaterade meningar",
+          "Styckeindelning spelar ingen roll",
+          "Alla stycken ska vara exakt lika långa",
+        ],
+        correctIndex: 1,
+        explanation:
+          "God styckeindelning innebär att varje stycke behandlar en huvudidé. Det skapar struktur och gör texten lättare att följa.",
       },
     ],
   },
